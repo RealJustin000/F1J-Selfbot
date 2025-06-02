@@ -459,7 +459,7 @@ async def autoreact(ctx, option: str):
         await ctx.send("# 🎈 __Fedded Selfbot__ 🎈\n`🔏` **Invalid option. Use +autoreact on or +autoreact off.**")
 
 @bot.command()
-async def spam(ctx, amount: int, *, message: str):
+async def death(ctx, amount: int, *, message: str):
     await ctx.message.delete()
     for _ in range(amount):
         await ctx.send(message)
