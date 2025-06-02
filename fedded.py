@@ -515,7 +515,7 @@ async def avatar(ctx, user: discord.User = None):
     member = user or ctx.author
 
     avatar_url = member.display_avatar.url
-    await ctx.send(f"# 🎈 __Fedded Selfbot__ 🎈\n`🔏` **Here is the [avatar]({avatar_url}) of {member.mention} **")
+    await ctx.send(f"# **Here is the [avatar]({avatar_url}) of {member.mention} **")
 
 @bot.command(name='banner')
 async def fetch_user_banner(ctx, user: discord.User = None):
@@ -540,7 +540,7 @@ async def fetch_user_banner(ctx, user: discord.User = None):
             
             banner = f"https://cdn.discordapp.com/banners/{uid}/{receive}.{format}?size=1024"  # Adjust the size here
 
-    await ctx.send(f"# 🎈 __Fedded Selfbot__ 🎈\n`🔏` **Here is the [banner]({banner}) of {member.mention} **")
+    await ctx.send(f"# **Here is the [banner]({banner}) of {member.mention} **")
 
 @bot.command()
 async def clear(ctx, amount: int):
