@@ -3,12 +3,12 @@
 ### This Selfbot has a total of about 25+ commands to make your life on discord easier. It has a nice and intuitive interface to make it easy to use for everyone, help and explanations for each command, a very complete help command.
 
 ## Discord Servers
-- https://discord.com/invite/nCyKKRAC9u (Support Server)
+- https://discord.gg/shootem (Support Server)
 
 ## Disclaimer
 
 - SelfBot was made for Educational purposes.
-- This selfbot is made for Nitro users so if you want emojis in Help message join this [server](https://discord.com/invite/W6JfvA4y66)
+- This selfbot is made for Nitro users so if you want emojis in Help message join this [server](https://discord.gg/shootem)
 __________________________________________________
 - By using this SelfBot, you agree that you hold responsibility and accountability of any consequences caused by your actions.
 
@@ -18,8 +18,8 @@ __________________________________________________
 - add your token to config/config.json
 - apt install python3
 - pkg install git
-- git clone https://github.com/zentir0g/fedded-selfbot
-- cd fedded-selfbot
+- git clone https://github.com/RealJustin000/F1J-Selfbot
+- cd F1J-Selfbot
 - python index.py
 
 ### For PC
@@ -39,4 +39,4 @@ If you get error after entering the command: 'pip install -r requirements.txt' i
 
 ### TYPE &help ON DISCORD TO SEE FEATURES OF YOU BOT...
 
-# This Project Is Made By: Harry Uchiha.
+# This Project Is Made By: Harry Uchiha. Forked and edited By @RealJustin000 and @maxselfbot 
