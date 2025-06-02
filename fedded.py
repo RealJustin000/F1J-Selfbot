@@ -469,7 +469,7 @@ async def afk(ctx, *, reason):
     await ctx.message.delete()
     global afk_reason
     afk_reason = reason
-    message = f"# 🎈 __Fedded Selfbot__ 🎈\n`🔏` **I am now AFK with the reason: {reason}.**"
+    message = f"# **I am now AFK with the reason: {reason}.**"
     await ctx.send(message)
 
 @bot.command()
@@ -477,7 +477,7 @@ async def unafk(ctx):
     await ctx.message.delete()
     global afk_reason
     afk_reason = None
-    message = "# 🎈 __Fedded Selfbot__ 🎈\n`🔏` **I am no longer AFK.**"
+    message = "# **I am no longer AFK.**"
     await ctx.send(message)
     
 @bot.command(aliases=['bal', 'ltcbal'])
