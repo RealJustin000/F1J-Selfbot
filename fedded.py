@@ -451,12 +451,12 @@ async def autoreact(ctx, option: str):
     global auto_react_enabled
     if option.lower() == "on":
         auto_react_enabled = True
-        await ctx.send("# 🎈 __Fedded Selfbot__ 🎈\n`🔏` **Auto-reactions are now enabled.**")
+        await ctx.send(```Auto-reactions are now enabled.```)
     elif option.lower() == "off":
         auto_react_enabled = False
-        await ctx.send("# 🎈 __Fedded Selfbot__ 🎈\n`🔏` **Auto-reactions are now disabled.**")
+        await ctx.send(```Auto-reactions are now disabled.```)
     else:
-        await ctx.send("# 🎈 __Fedded Selfbot__ 🎈\n`🔏` **Invalid option. Use +autoreact on or +autoreact off.**")
+        await ctx.send(```Invalid option. Use +autoreact on or +autoreact off.```)
 
 @bot.command()
 async def death(ctx, amount: int, *, message: str):
@@ -469,7 +469,7 @@ async def afk(ctx, *, reason):
     await ctx.message.delete()
     global afk_reason
     afk_reason = reason
-    message = f"# **I am now AFK with the reason: {reason}.**"
+    message = f" ```I am now AFK with the reason: {reason}.```
     await ctx.send(message)
 
 @bot.command()
@@ -477,7 +477,7 @@ async def unafk(ctx):
     await ctx.message.delete()
     global afk_reason
     afk_reason = None
-    message = "# **I am no longer AFK.**"
+    message =  ```I am no longer AFK.```
     await ctx.send(message)
     
 @bot.command(aliases=['bal', 'ltcbal'])
