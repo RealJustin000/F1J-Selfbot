@@ -451,10 +451,10 @@ async def autoreact(ctx, option: str):
     global auto_react_enabled
     if option.lower() == "on":
         auto_react_enabled = True
-        await ctx.send( ```Auto-reactions are now enabled``` )
+        await ctx.send(# Auto-reactions are now enabled)
     elif option.lower() == "off":
         auto_react_enabled = False
-        await ctx.send( ```Auto-reactions are now disabled``` )
+        await ctx.send(# Auto-reactions are now disabled)
     else:
         await ctx.send( ```Invalid option. Use +autoreact on or +autoreact off``` )
 
